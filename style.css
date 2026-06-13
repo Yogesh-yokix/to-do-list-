@@ -1,0 +1,98 @@
+
+body{
+    background: linear-gradient(135deg,#153677,#4e085f);
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 25px;
+    border-radius: 15px;
+}
+h1{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Sans-Serif,Arial;
+}
+
+.header{
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    background-color: grey;
+    border-radius: 15px;
+}
+input,button{
+    padding: 10px 20px;
+    border: none;
+}
+
+input{
+    color: white;
+    background: transparent;
+    font-weight: 14px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+input::placeholder{
+    color: white;
+}
+
+#add{
+    background-color: #4e085f;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    
+}
+input:focus{
+    outline: none;
+}
+
+.output{
+    width: 100%;
+    padding-top: 20px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+
+#List{
+    display: flex;
+    padding-bottom: 10px;
+    font-family: Sans-Serif;
+    
+}
+#List li{
+    padding-left: 10px;
+}
+
+.listButton{
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 15px;
+    font-family: sans-serif;
+    
+}
+
+.listButton:hover{
+    background-color: lightgrey;
+}
+
+
+
